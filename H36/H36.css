@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0 0 0 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.Background{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    width: 90vw;
+    margin-left: 10vw;
+    height: 100vh;
+    z-index: 50;
+    opacity: 0.25;
+}
+.Background img{
+    height: 100%;;
+}
+.Header{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: cadetblue;
+    width: 100vw;
+    height: 10vh;
+    z-index: 100;
+}
+.Header h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.Navigator{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 10vw;
+    height: 90vh;
+    margin-top: 10vh;
+    background-color: grey;
+    z-index: 100;
+}
+#START{
+    display: flex;
+    width: 90vw;
+    height: 10vh;
+}
+.Content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 10vw;
+    width: 90vw;
+    height: fit-content;
+}
+.ImageHolder{
+    display: flex;
+    position: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 90vh;
+    z-index: 75;
+}
+.Image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+}
+.Option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    width: 100%;
+    height: 15vh;
+}
+.Option:hover{
+    background-color: dimgrey;
+}
+.SearchBar{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 35vh;
+    background-color: cornflowerblue;
+    z-index: 75;
+}
+.SearchBar input{
+    width: 75%;
+    height: 5vh;
+}
+.Courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: teal;
+    width: 90vw;
+    height: 35vh;
+    z-index: 75;
+}
+.Classes{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin-bottom: 10vh;
+    justify-content: space-evenly;
+    z-index: 75;
+}
+.Opt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    height: 50vh;
+    padding-top: 10vh;
+    background-color: coral;
+    margin-top: 10vh;
+}
+.Imager{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    height: 50%;
+}
+.Imager img{
+    display: block;
+    width: auto;
+    height: 100%;
+}
+.Caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+.Caption h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.PreOpt{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    justify-content: space-evenly;
+    width: 90vw;
+    height: 50vh;
+    background-color: deepskyblue;
+    z-index: 75;
+}
+.Line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 10vw;
+    width: 100%;
+    height: 10vh
+}
+.Button1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 25vw;
+    height: 10vh;
+    background-color: turquoise;
+}
+.Line2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10vw;
+    width: 100%;
+    height: 10vh;
+}
+.Button2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 25vw;
+    height: 10vh;
+    background-color: tomato;
+}
+.Button1:hover{
+    background-color: teal;
+}
+.Button2:hover{
+    background-color: crimson;
+}
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: lightslategray;
+    width: 90vw;
+    z-index: 75;
+}
+.FooterOpt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    width: 25vw;
+    height: 10vh;
+}
+.FooterOpt:hover {
+    background-color: black;
+    color: white;
+}
+.BottomText{
+    display: block;
+    text-align: center;
+    background-color: lightslategray;
+    width: 90vw;
+    height: 5vh;
+    z-index: 75;
+}
+.Signer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 75;
+    background-color: white;
+}
+.FrontText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 35vh;
+    background-color: aquamarine;
+}
+.NameInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 25vh;
+}
+.NameInput input{
+    width: 50%;
+    height: 10vh;
+}
+.Password{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 25vh;
+}
+.Password input{
+    width: 50%;
+    height: 10vh;
+}
+.Continue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 75vw;
+    height: 15vh;
+    background-color: cornflowerblue;
+    margin-bottom: 10vh;
+}
+.Ask{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 75vw;
+    height: 15vh;
+    background-color: darkcyan;
+    margin-bottom: 10vh;
+}
+.Continue:hover {
+    background-color: steelblue;
+}
+.Ask:hover {
+    background-color: darkgreen;
+}
+.Find{
+    background-color: lightcoral;
+}
+.Introductory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 90vw;
+    height: 35vh;
+    background-color: white;
+}
+.AboutText{
+    display: inline;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    height: fit-content;
+}
+.Buffer{
+    display: block;
+    width: 100%;
+    height: 10vh;
+}
